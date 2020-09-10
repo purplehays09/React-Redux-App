@@ -14,27 +14,18 @@ export function reducer(state = initialState,action) {
         case FETCH_DATA:
             return{
                 ...state,
-                id:'',
-                name:'',
-                army_type:'',
-                team_bonus:''
+                civsArray:''
             }
         case FETCH_SUCCESS:
             return{
                 ...state,
-                id:'',
-                name:'',
-                army_type:'',
-                team_bonus:''
+                civsArray:''
             }
 
         case FETCH_ERROR:
             return{
                 ...state,
-                id:'',
-                name:'',
-                army_type:'',
-                team_bonus:''
+                civsArray:''
             }
     
         default:
